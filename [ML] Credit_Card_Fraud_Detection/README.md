@@ -5,8 +5,13 @@
 ### __요약:__
 ﻿카드 사기로 인한 손실과 사기 탐지 시스템 운영 비용의 최소화를 위한 머신러닝 모델 개발하였다.
 
-- 모델: XGBoost, RandomForestClassifier, LinearRegression 사용하여 가장 적절한 모델을 테스트했다.
+#1 카드거래_사기탐지_모델.ipynb
+- 모델: XGBoost, RandomForestClassifier, LinearRegression 중 가장 적절한 모델을 테스트했다.
 - 주어진 데이터를 UnderSampling, OverSampling, Under+OverSampling, PCA 적용하여 각 모델에 실험하였다.
+
+#2 사기거래_집중학습_모델.ipynb
+- 모델: RandomForestClassifier
+- 카드 거래 사기 데이터를 집중적으로 학습하였다.
 
 ### __역할:__
 - Under+OverSampling을 이용한 데이터 전처리 후, 3가지 모델에 학습 및 평가하였다.
