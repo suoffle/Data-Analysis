@@ -17,5 +17,14 @@
 - 데이터의 특징 발견: 한 번 사기를 당한 사용자(233명)가 다시 사기를 당하는 사용자(223)가 약 95.7%였다.
 - 전처리된 데이터를 3가지 모델에 적용한 결과 가장 적절한 모델이 RandomForestClassifier라고 판단되었다.
 - 따라서, 사기를 한 번 이상 경험한 사용자를 추출하여 해당 사용자의 사기 거래와 비사기 거래 데이터를 RandomForestClassifier에 학습하였다.
-- 이는 % -> % 메모리 절약, 비용 감소.
+---
+### <초기 Raw 데이터 RandomForest>  
+<img width="250" height="226" alt="Image" src="https://github.com/user-attachments/assets/c9f5f650-b72b-4f89-b653-fd6db11842f5" />
+
+### <사기 거래 집중 학습 데이터 RandomForest>  
+<<img width="235" height="226" alt="Image" src="https://github.com/user-attachments/assets/ce5fa241-61d3-4a18-bb7f-12709e847cd7" />
+
+<br>
+
+=> 전체 데이터 중 약 15.4% 데이터만을 사용하여 오탐과 미탐을 크게 줄여 모델의 성능을 향상시켰다.
 
